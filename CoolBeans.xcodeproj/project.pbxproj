@@ -11,6 +11,16 @@
 		43F981EF2AFF9850008B4A11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F981EE2AFF9850008B4A11 /* ContentView.swift */; };
 		43F981F12AFF9852008B4A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F981F02AFF9852008B4A11 /* Assets.xcassets */; };
 		43F981F42AFF9852008B4A11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F981F32AFF9852008B4A11 /* Preview Assets.xcassets */; };
+		43F981FB2AFF99BD008B4A11 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 43F981FA2AFF99BD008B4A11 /* menu.json */; };
+		43F981FD2AFF99D7008B4A11 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F981FC2AFF99D7008B4A11 /* Drink.swift */; };
+		43F981FF2AFF9A35008B4A11 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F981FE2AFF9A35008B4A11 /* MenuSection.swift */; };
+		43F982012AFF9A62008B4A11 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F982002AFF9A62008B4A11 /* Menu.swift */; };
+		43F982032AFF9B54008B4A11 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F982022AFF9B54008B4A11 /* MenuView.swift */; };
+		43F982052AFFAEB8008B4A11 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F982042AFFAEB8008B4A11 /* CustomizeView.swift */; };
+		43F982072AFFB27A008B4A11 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F982062AFFB27A008B4A11 /* ConfigurationOption.swift */; };
+		43F982092AFFB627008B4A11 /* Serving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F982082AFFB627008B4A11 /* Serving.swift */; };
+		43F9820B2AFFB677008B4A11 /* FimeManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9820A2AFFB677008B4A11 /* FimeManager-DocumentsDirectory.swift */; };
+		43F9820D2AFFB6C0008B4A11 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F9820C2AFFB6C0008B4A11 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		43F981EE2AFF9850008B4A11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		43F981F02AFF9852008B4A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43F981F32AFF9852008B4A11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43F981FA2AFF99BD008B4A11 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		43F981FC2AFF99D7008B4A11 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		43F981FE2AFF9A35008B4A11 /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		43F982002AFF9A62008B4A11 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		43F982022AFF9B54008B4A11 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		43F982042AFFAEB8008B4A11 /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		43F982062AFFB27A008B4A11 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
+		43F982082AFFB627008B4A11 /* Serving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serving.swift; sourceTree = "<group>"; };
+		43F9820A2AFFB677008B4A11 /* FimeManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FimeManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		43F9820C2AFFB6C0008B4A11 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,16 @@
 			children = (
 				43F981EC2AFF9850008B4A11 /* CoolBeansApp.swift */,
 				43F981EE2AFF9850008B4A11 /* ContentView.swift */,
+				43F982022AFF9B54008B4A11 /* MenuView.swift */,
+				43F982042AFFAEB8008B4A11 /* CustomizeView.swift */,
+				43F981FC2AFF99D7008B4A11 /* Drink.swift */,
+				43F982082AFFB627008B4A11 /* Serving.swift */,
+				43F9820A2AFFB677008B4A11 /* FimeManager-DocumentsDirectory.swift */,
+				43F9820C2AFFB6C0008B4A11 /* History.swift */,
+				43F982002AFF9A62008B4A11 /* Menu.swift */,
+				43F981FE2AFF9A35008B4A11 /* MenuSection.swift */,
+				43F982062AFFB27A008B4A11 /* ConfigurationOption.swift */,
+				43F981FA2AFF99BD008B4A11 /* menu.json */,
 				43F981F02AFF9852008B4A11 /* Assets.xcassets */,
 				43F981F22AFF9852008B4A11 /* Preview Content */,
 			);
@@ -125,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43F981FB2AFF99BD008B4A11 /* menu.json in Resources */,
 				43F981F42AFF9852008B4A11 /* Preview Assets.xcassets in Resources */,
 				43F981F12AFF9852008B4A11 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +169,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				43F981EF2AFF9850008B4A11 /* ContentView.swift in Sources */,
+				43F982032AFF9B54008B4A11 /* MenuView.swift in Sources */,
+				43F981FD2AFF99D7008B4A11 /* Drink.swift in Sources */,
+				43F9820D2AFFB6C0008B4A11 /* History.swift in Sources */,
+				43F981FF2AFF9A35008B4A11 /* MenuSection.swift in Sources */,
 				43F981ED2AFF9850008B4A11 /* CoolBeansApp.swift in Sources */,
+				43F9820B2AFFB677008B4A11 /* FimeManager-DocumentsDirectory.swift in Sources */,
+				43F982072AFFB27A008B4A11 /* ConfigurationOption.swift in Sources */,
+				43F982052AFFAEB8008B4A11 /* CustomizeView.swift in Sources */,
+				43F982012AFF9A62008B4A11 /* Menu.swift in Sources */,
+				43F982092AFFB627008B4A11 /* Serving.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
